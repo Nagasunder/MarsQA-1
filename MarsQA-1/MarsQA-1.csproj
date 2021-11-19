@@ -155,6 +155,7 @@
     <Compile Include="Feature\Education.cs" />
     <Compile Include="Feature\LanguagesSteps.cs" />
     <Compile Include="Feature\Login.cs" />
+    <Compile Include="Feature\ProfilePage.cs" />
     <Compile Include="Feature\Skills.cs" />
     <Compile Include="Feature\SpecFlowFeature.cs" />
     <Compile Include="SpecflowPages\Helpers\CommonMethods.cs" />
@@ -171,6 +172,7 @@
     <None Include="Feature\Education.feature" />
     <None Include="Feature\Languages.feature" />
     <None Include="Feature\Login.feature" />
+    <None Include="Feature\Profile Page.feature" />
     <None Include="Feature\Skills.feature" />
     <None Include="Feature\SpecFlowFeature1.feature" />
     <None Include="SpecflowTests\Data\Data.xlsx" />
