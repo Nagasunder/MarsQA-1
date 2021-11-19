@@ -17,25 +17,25 @@ namespace MarsQA_1.Feature
         {
             Driver.driver.FindElement(By.XPath("//A[@class='item'][text()='Skills']")).Click();
         }
-
+        //Click on Add New for Adding New Skills
         [Given(@"Click on Add New for Adding New Skills")]
         public void GivenClickOnAddNewForAddingNewSkills()
         {
             Driver.driver.FindElement(By.XPath("//*[@class='ui teal button'][text()='Add New']")).Click();
         }
-
+        //Add Skill
         [Given(@"Add Skill")]
         public void GivenAddSkill()
         {
             Driver.driver.FindElement(By.XPath("//*[@class='fields']/div/input")).SendKeys("Testing");
         }
-
+        //Choose skill level from dropdown list
         [Given(@"Choose skill level from dropdown list")]
         public void GivenChooseSkillLevelFromDropdownList()
         {
             Driver.driver.FindElement(By.XPath("//*[@class='ui fluid dropdown']/option[2]")).Click();
         }
-
+        //Click on Add For Adding new Skill
         [Then(@"Click on Add For Adding new Skill")]
         public void ThenClickOnAddForAddingNewSkill()
         {
